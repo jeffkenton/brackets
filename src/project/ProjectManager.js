@@ -61,6 +61,7 @@ define(function (require, exports, module) {
         StringUtils         = require("utils/StringUtils"),
         Strings             = require("strings"),
         FileViewController  = require("project/FileViewController"),
+        ProjectMap          = require("project/ProjectMap"),
         PerfUtils           = require("utils/PerfUtils"),
         ViewUtils           = require("utils/ViewUtils"),
         CollectionUtils     = require("utils/CollectionUtils"),

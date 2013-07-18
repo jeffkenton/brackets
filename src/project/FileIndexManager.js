@@ -411,6 +411,14 @@ define(function (require, exports, module) {
         }
     );
 
+    _addIndex(
+        "html",
+        function (entry) {
+            var filename = entry.name;
+            return PathUtils.filenameExtension(filename) === ".html";
+        }
+    );
+
     /**
      * When a new project is opened set the flag for index exceeding maximum
      * warning back to false. 
